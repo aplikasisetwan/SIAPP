@@ -1,0 +1,30 @@
+[09-Jul-2026 11:47:04 Asia/Jakarta] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/bogw2287/public_html/siapp.bogorindo.com/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/bogw2287/public_html/siapp.bogorindo.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/bogw2287/public_html/siapp.bogorindo.com/vendor/autoload.php(22): ComposerAutoloaderInit626b9e7ddd47fb7eff9aaa53cce0c9ad::getLoader()
+#2 /home/bogw2287/public_html/siapp.bogorindo.com/artisan(9): require('/home/bogw2287/...')
+#3 {main}
+  thrown in /home/bogw2287/public_html/siapp.bogorindo.com/vendor/composer/platform_check.php on line 22
+[09-Jul-2026 13:26:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'DB' not found in Command line code:3
+Stack trace:
+#0 {main}
+  thrown in Command line code on line 3
+[09-Jul-2026 13:26:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'DB' not found in Command line code:3
+Stack trace:
+#0 {main}
+  thrown in Command line code on line 3
+[09-Jul-2026 13:27:56 Asia/Jakarta] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/bogw2287/public_html/siapp.bogorindo.com/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/bogw2287/public_html/siapp.bogorindo.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/bogw2287/public_html/siapp.bogorindo.com/vendor/autoload.php(22): ComposerAutoloaderInit626b9e7ddd47fb7eff9aaa53cce0c9ad::getLoader()
+#2 Command line code(3): require('/home/bogw2287/...')
+#3 {main}
+  thrown in /home/bogw2287/public_html/siapp.bogorindo.com/vendor/composer/platform_check.php on line 22
+[09-Jul-2026 13:34:07 Asia/Jakarta] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/bogw2287/public_html/siapp.bogorindo.com/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/bogw2287/public_html/siapp.bogorindo.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/bogw2287/public_html/siapp.bogorindo.com/vendor/autoload.php(22): ComposerAutoloaderInit626b9e7ddd47fb7eff9aaa53cce0c9ad::getLoader()
+#2 /home/bogw2287/public_html/siapp.bogorindo.com/artisan(9): require('/home/bogw2287/...')
+#3 {main}
+  thrown in /home/bogw2287/public_html/siapp.bogorindo.com/vendor/composer/platform_check.php on line 22
+[09-Jul-2026 15:51:01 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'bogw2287_dbsiapp'@'localhost' (using password: YES) in Command line code on line 2
